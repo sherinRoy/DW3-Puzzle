@@ -20,6 +20,7 @@ h1 {
 
   button {
     padding: 0 $spacing-xs;
+    background-color: $pink-dark;
   }
 }
 
@@ -64,4 +65,13 @@ main {
 
 .reading-list-content {
   padding: $spacing-xxs;
+}
+
+.header-button-reading-list {
+  color: $white;
+  background-color: $gray80;
+}
+
+.reading-list-container .mat-icon-button:focus {
+  outline: 1px solid $white;
 }
