@@ -34,10 +34,11 @@
             <button
               mat-flat-button
               color="primary"
+              data-testing="add-book-button"
               (click)="addBookToReadingList(book)"
               [disabled]="book.isAdded"
             >
-              Want to Read
+            {{book.finished ? 'Finished':'Want to Read'}}
             </button>
           </div>
         </div>

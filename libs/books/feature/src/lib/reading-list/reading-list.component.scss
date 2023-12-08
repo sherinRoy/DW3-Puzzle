@@ -45,3 +45,14 @@
   font-size: 1rem;
   color: $gray60;
 }
+
+.reading-list-item-finished-text {
+  margin-top: $spacing-3xs;
+}
+
+.reading-list-item-finished-text,
+.mark-finish-circle {
+  color: $green;
+  width: 20%;
+  padding-bottom: $spacing-3xs;
+}
